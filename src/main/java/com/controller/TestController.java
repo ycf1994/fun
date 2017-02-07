@@ -23,7 +23,7 @@ public class TestController extends Controller{
 		
 	}
 	
-	public void upload(User user,File file){
+	public  void upload(User user,File file){
 		System.out.println(user);
 		this.copyFile(file, new File("d://1.docx"));
 	}
