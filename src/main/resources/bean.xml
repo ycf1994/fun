@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="uc" class="com.ycf.test.controller.UserController">		
+	</bean>
+</beans>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappers>
+	<mapper class="com.ycf.test.model.User" tbname="user" pkey="id"></mapper>
+</mappers>
