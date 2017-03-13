@@ -14,7 +14,7 @@ import com.ycf.fun.controller.Controller;
 @Method(requestMethod=method.POST)
 public class TestController extends Controller{
 	public void index(){
-		render("index" );
+		 render("index" );
 	}
 	public void find(int page,int rows){
 		System.out.println("find...");
