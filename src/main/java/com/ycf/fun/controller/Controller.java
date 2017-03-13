@@ -46,7 +46,7 @@ public abstract class Controller {
 			request.getRequestDispatcher(prefix + url + suffix).forward(request, response);
 		} catch (ServletException | IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			 e.printStackTrace();
 		}
 	}
 
