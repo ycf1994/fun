@@ -11,7 +11,7 @@ public class UserController extends Controller{
 	public void loginPage(){
 		render("login");
 	}
-	public void addPage(){
+	      public void addPage(){
 		render("add");
 	}
 	public void login(String username,String password){
